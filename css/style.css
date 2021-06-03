@@ -1,0 +1,62 @@
+/*reset css*/
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;vertical-align: baseline;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;} body {line-height: 1;} ol, ul {list-style: none;} blockquote, q {quotes: none;}blockquote:before, blockquote:after,
+q:before, q:after {content: '';content: none;} table {border-collapse: collapse; border-spacing: 0;}
+/*generic css*/
+.container{width: 1024px;margin: auto;}
+.clear{clear: both;}
+/*font css*/
+@font-face{src:url(../font/LaoUI.ttf);font-family:laoUI;}
+@font-face{src:url(../font/SegoeWP.ttf);font-family:segoeWP;}
+@font-face{src:url(../font/Asap-Regular.ttf);font-family:asap regular;}
+@font-face{src:url(../font/SegoeUI.ttf);font-family: Segoe UI;}
+@font-face{src:url(../font/PTSans-Regular.ttf);font-family:ptsans regular;}
+@font-face{src:url(../font/OpenSans-Regular.ttf);font-family:opensans;}
+@font-face{src:url(../font/MyriadProRegular.ttf);font-family:Myriad Pro;}
+
+/*basic css*/
+.banner{background-image: url(../img/banner1.png);background-size:100%;background-repeat: no-repeat;padding:30px 0 70px;}
+.banner header{position: relative;}
+.banner header .logo {float:left;}
+.banner header .para{float:left;font-family:laoUI;font-size:13px;color:white;position: absolute;top:52px;left: 320px;}
+.banner header .nav{z-index: 100; float:right;background-color:#F5C506;margin-top: 30px; position: absolute;right: 0px;top:0px;}
+.banner header .shadow{z-index: 1; float: right;width: 446px;height: 51px;background-color:rgba(149, 128, 20,0.7);position: absolute;top:20px;right:9px;}
+.banner header .shadow1{z-index: 10; float: right;width: 446px;height: 51px;background-color:rgba(149, 128, 20,0.5);position: absolute;top:11px;right:17px;}
+.banner header .nav li{display: inline-block;padding: 10px 20px 18px 0;border-right: 1px solid #bc9d23; }
+.banner header .nav li a{text-decoration: none; font-family:segoeWP;font-size:17px;color:#9b7d08;padding-left:12px; box-sizing:border-box;}
+.banner header .nav li a img{margin-right: 15px;}
+.banner .minimal {padding-top:50px;}
+.banner .minimal .video{float:left; width: 50%;}
+.banner .minimal .heading{width: 50%; float: left;color:#fff;font-family:asap regular;font-size:63px;text-align: center; padding:124px 0 100px;box-sizing: border-box;}
+.banner .minimal .heading h2 span{color:#f5c506;margin-bottom: 30px;}
+/*service section*/
+.service{background-image: url(../img/pkt_banner.png);background-repeat: no-repeat;background-size: cover;}
+.service .pkt{width:32.33%;float:left;text-align: center;padding: 40px 0 37px;}
+.service .pkt h3{font-family: Segoe UI;font-size: 27px;color: black;}
+.mar_b{margin-bottom: 10.8px;}
+.mar_b1{margin-bottom: 15.8px;}
+.border{border-right:1px solid lightgray;border-left:1px solid lightgray;}
+/*banner2 section*/
+.banner2{background-image: url(../img/banner2.png);background-repeat: no-repeat;background-size: cover;padding: 43px 0 80px;}
+.banner2 h1{margin-bottom:40px;font-family:ptsans regular;font-size:37px;color:white;}
+.banner2 .pkt2 {float: left;width: 33.33%;}
+.banner2_pkt .para2{font-family:Segoe WP;font-size:29px;line-height:38px;color:white;background-color: #EC9E03;padding: 23px 0 26px 32px;box-sizing: border-box;}
+/*date section*/
+.date{background-color: #DDB101;width: 10%;text-align: center;padding: 16px 0 10px;margin-top: -2px;}
+.date h1{margin: 0;font-size: 51px;color: white;line-height: 38px;}
+.date p{font-size: 21px;color: #b26529;font-family: Segoe UI;margin-top: 10px;}
+/*offer section*/
+.offer{background-image:url(../img/offer-banner.png);background-repeat: no-repeat;background-size: cover;padding: 47px 0 100px;}
+.offer h1{font-family:ptsans regular;font-size:43px;color:#f5c506;margin-bottom: 55px;text-align: center;}
+.offer .pc{float: left; width: 60%;position: relative;}
+.offer .pc .free{position: absolute;top:-42px;left: -32px;}
+.offer .desc{float: left;width: 40%;}
+.offer .desc ul li{margin-top: 23px;color:#a9a9a7;font-size: 22px;font-family: Myriad Pro;line-height: 24px;}
+.offer .desc ul li::before {content: "\2022";color:#F5C506; font-weight: bold;display: inline-block;width: 1em;margin-left: -1em;}
+/*footer section*/
+footer{background-color: #4c4c4c;box-shadow:0px -4px 9px black; }
+footer .logo2{float: left;}
+footer .copy {font-family:opensans;font-size:17px;color:#fff; float: right;padding: 21px 0 25px;box-sizing: border-box;}
